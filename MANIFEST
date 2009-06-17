@@ -5,6 +5,7 @@ Makefile.PL
 MANIFEST
 read_JPEG_metadata
 README
+t/test_setup.pl
 t/JPEG_0_records.t
 t/JPEG_1_segments.t
 t/JPEG_2_JPEG_class.t

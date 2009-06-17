@@ -1,13 +1,14 @@
-2009-06-16  Stefano Bettelli  <bettelli@cpan.org>
+2009-06-17  Stefano Bettelli  <bettelli@cpan.org>
 
-	* lib/Image/MetaData/JPEG.pm: setting $VERSION to 0.151, and
+	* lib/Image/MetaData/JPEG.pm: setting $VERSION to 0.152, and
 	posting to CPAN (this is mainly a bugfix version, being up-
         loaded after three years due to lack of interest from users).
 	==========================================================
-        Most relevant changes from version 0.15 to 0.151:
+        Most relevant changes from version 0.15 to 0.152:
 	(see the documentation in the .pod files for more details)
 	==========================================================
         * eliminated all annoying errors in the test suite. 
+	* added t/test_setup.pl to the MANIFEST (sorry version 0.151)
 	* fixed bug #17835 (see rt.cpan.org)
 	* new documentation: 'Structure of an XMP APP1 segment'
 	* new documentation: 'XMP data ("APP1" segments)'
